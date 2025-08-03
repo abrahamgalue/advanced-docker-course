@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subir Imagen Local</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      color: #007bff;
+    }
+
+    input[type="file"] {
+      margin: 1rem 0;
+    }
+
+    img {
+      max-width: 80%;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Visualizador de Imagen Local</h1>
+  <p>Selecciona una imagen para verla aquí:</p>
+  <input type="file" id="inputImagen" accept="image/*" />
+  <br />
+  <img id="preview" alt="Vista previa de la imagen" />
+  <script src="app.js"></script>
+</body>
+
+</html>
